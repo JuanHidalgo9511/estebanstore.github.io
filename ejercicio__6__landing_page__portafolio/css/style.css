@@ -1,0 +1,161 @@
+html {scroll-behavior: smooth;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;}
+ 
+    .img {
+        width: 20%;
+        height: auto;}
+    
+    .logo {
+        border: 10px ;
+        width: 60px;}
+
+    .container{
+        display: flex;
+        width: 70%;
+        max-width: 1700px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;}    
+  
+    nav {
+        background-color: rgb(162, 149, 233);
+        position: fixed;
+        width: 100%;
+        z-index: 100;}
+    
+    nav .nav {
+        padding: .9em 0em;}
+    
+    nav .container ul li {
+        display: inline;
+        padding: .2em;}
+    
+    nav .container ul li a{
+        font-size: 1em;
+        color: #000000;
+        padding: .8em 1em;
+        border-radius: 10px;}
+    
+    nav .container ul li a:hover{
+        color: rgb(0, 0, 0);
+        background-color:rgb(221, 189, 189);}
+
+    .bienvenida {
+        display:flex;
+        width: 100%;
+        justify-content: space-between;}
+    
+    .bienvenida {
+        flex-grow:2;}
+    
+    .bienvenida .imagenes{
+        border: 3px solid;
+        padding: 60px;}
+    
+    .presentacion { 
+        padding: 64px;
+        flex-grow: 1;
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        text-align: left;}
+    
+    .presentacion h1 {
+        font-size: 2em;
+        color: rgb(0, 0, 0);}
+    
+    .bienvenida .down {
+        margin-top: 3em;
+        align-content: center;}
+    
+    .bienvenida {
+        background-color: #ffffff;
+        clip-path: (0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+        padding-top: 90px;
+        align-items: center;}
+    
+    div .perfil ul li {
+        display: inline;
+        padding: .2em;}
+    
+    div .perfil ul li a{
+        font-size: 1em;
+        color: #000000;
+        padding: .8em 1em;
+        border-radius: 50px;
+        margin-top: 3em;}
+    
+    div .perfil ul li a:hover{
+        color: #000000;
+        background-color:rgb(221, 189, 189);}
+    
+    .wrap1 {
+        display: flex;
+        width: 70%;
+        max-width: 1700px;
+        margin: auto;
+        text-align: center;
+        color: rgb(255, 255, 255);}
+    
+    .wrap2 {
+        width: 70%;
+        max-width: 1700px;
+        margin: auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 18px;}
+    
+    .justify-content {
+        gap: 60px;
+        border: 8px;}
+    
+    .servicios {
+        padding: 7em;
+        background-color: rgba(53, 133, 170, 0.233);}
+    
+    .justify-content{
+        display: flex;
+        justify-content: space-evenly;}
+
+    .servicios .img {
+        width: 60px;}
+    
+    .trabajos {
+        padding: 7em;
+        text-align: center;
+        padding-top: 3em;
+        background-color: rgb(158, 234, 253); 
+        color: #000000;}
+    
+    .contacto {
+        align-items: center;
+        padding: 3em;
+        background-color: rgb(127, 212, 252);
+        text-align: center;
+        color: #000000;}
+
+    .swiper {
+    width: 50%;
+    height: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;}
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;}
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;}    
+
+  .video{
+    background-color: rgba(148, 245, 119, 0.603);
+    padding: 5em;
+    text-align: center;}

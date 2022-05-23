@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO BEBÉS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/icons/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+
+
+    <nav class="navegador__header">
+        <div class="container nav">
+            <div class="logo">
+              <a href="#"><img src="img/images/images/cap.png" alt="new born" ></a>
+            </div>
+            <ul>
+                <li><a href="#seccion2">VIDEO</a></li>
+                <li><a href="#seccion3">SERVICIOS</a></li>
+                <li><a href="#seccion4">TRABAJOS</a></li>
+                <li><a href="#seccion5">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bienvenida" id="seccion1"> 
+
+      <article class="wrap1">
+      <div class="imagenes">   
+        <a href="#"><img src="img/images/Isac.jpg" alt="isac" ></a>  
+       </div> 
+      
+
+          <div class="presentacion">
+               <article class="perfil">
+                  <h1>New Born</h1>
+                  <p>La fotografía newborn está cada vez más en auge pero tienes que saber que no solo necesita de una 
+                    técnica adecuada, sino que un bebé es mucho más delicado de retratar, como ya supondrás, que cualquier 
+                    otro tema que hayas retratado. Y cuando decimos muy delicado, es muy muy delicado. Por eso, hoy vamos a 
+                    hablar de todo lo que debes tener en cuenta para hacer fotografía newborn.
+                    Lo primero que debes saber es que la fotografía newborn es distinta de la fotografía de bebés más mayores. 
+                    Se considera newborn al tipo de fotografía que se da cuando el retrato es de un recién nacido de menos de 
+                    28 días. Lo habitual en este tipo de fotografía es que esté entre los 5 días a 12 días de su nacimiento. 
+                    <br>
+                    <br>
+                      <ul>
+                        <li><a class="down animate_animated animatebounceInDown animate_slower	3s fa-solid fa-circle-chevron-down" href=""> RESERVAR </a></li>
+                        <li><a class="down animate_animated animatebounceInDown animate_slower	3s fa-solid fa-circle-chevron-down" href=""> FECHAS DISPONIBLES </a></li>
+                        </datagrid> </a></li>
+                    </ul>
+                  </article>
+                </div>        
+    </section>
+
+    <section class="video" id="seccion2">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IsIkal0wqqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</section>
+
+    <section class="servicios" id="seccion3">
+        <div class="wrap2">
+            <h1>Servicios</h1>
+            <p>Fotografia de recién nacidos. </p>
+            <br>
+            <div class="container justify-content">
+              <article class="item1"> <img src="img/images/4.jpg" alt="bebe"> </article>
+              <article class="item2"> <img src="img/images/5.jpg" alt="bebe"> </article>
+              <article class="item3"> <img src="img/images/6.jpg" alt="bebe"> </article>
+            </div>
+
+</section>
+
+<section class="trabajos" id="seccion4">
+    <div class="wrap">
+        <h1>Mis trabajos</h1>
+        <br>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/images/1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/images/2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/images/3.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+</section>
+
+
+<section class="contacto" id="seccion5">
+  <div class="wrap3">
+      <h1>CONTACTO</h1>
+      <p>Daniela Sepúlveda Gallego<br>
+         capturandomomentos@gmail.com  <br>
+         304.644.06.76 </p>
+  </div>
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+</body>
+</html>
